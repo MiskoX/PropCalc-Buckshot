@@ -26,15 +26,6 @@
     <li>Wyświetlanie komunikatów o błędach w przypadku niepoprawnych danych wejściowych.</li>
 </ul>
 
-<pre style="color: #00ff00; background-color: black; padding: 10px; border: 1px solid #00ff00;">
-body {
-    background-color: black;
-    color: #00ff00;
-    font-family: monospace;
-    text-shadow: 0px 0px 5px rgba(0, 255, 0, 0.75);
-}
-</pre>
-
 <h2 style="color: #00ff00;">Strona Projektu</h2>
 <p style="color: #00ff00;">
     Pełna wersja projektu jest dostępna pod adresem: 
