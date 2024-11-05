@@ -249,7 +249,8 @@ input[type="radio"]:checked + .custom-radio:after {
 
   .game .guess-section,
   .full-bullets,
-  .blank-bullets {
+  .blank-bullets,
+  .setup label {
     font-size: 18px;
   }
 }
