@@ -43,6 +43,12 @@ const BuckshotRoulette = ({ onGameEnd, showModal }) => {
   };
 
   const endRound = () => {
+    if (!guess) {
+      // Sprawdzenie, czy żaden radio button nie jest zaznaczony
+      showModal("Please select a shell type!");
+      return;
+    }
+
     if (guess === "full" && remainingFull > 0) {
       setRemainingFull(remainingFull - 1);
     } else if (guess === "blank" && remainingBlank > 0) {
