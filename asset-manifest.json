@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PropCalc-Buckshot/static/css/main.b52c7523.css",
+    "main.js": "/PropCalc-Buckshot/static/js/main.13c4feab.js",
+    "index.html": "/PropCalc-Buckshot/index.html",
+    "main.b52c7523.css.map": "/PropCalc-Buckshot/static/css/main.b52c7523.css.map",
+    "main.13c4feab.js.map": "/PropCalc-Buckshot/static/js/main.13c4feab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b52c7523.css",
+    "static/js/main.13c4feab.js"
+  ]
+}
