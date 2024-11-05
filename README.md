@@ -31,8 +31,3 @@
     Pełna wersja projektu jest dostępna pod adresem: 
     <a href="https://miskox.github.io/PropCalc-Buckshot/" style="color: #00ff00; text-decoration: none;">PropCalc-Buckshot</a>
 </p>
-
-<h2 style="color: #00ff00;">Licencja</h2>
-<p style="color: #00ff00;">
-    Ten projekt jest licencjonowany na warunkach licencji MIT.
-</p>
