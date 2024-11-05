@@ -5,8 +5,3 @@
   font-family: "Courier New", Courier, monospace;
   user-select: none;
 }
-
-.App {
-  display: flex;
-  flex-direction: column;
-}

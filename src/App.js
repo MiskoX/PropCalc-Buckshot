@@ -25,7 +25,7 @@ const App = () => {
   return (
     <div className="App">
       <h1>Buckshot Roulette</h1>
-      <h3>Propability Calculator v. 1.0</h3>
+      <h3>Propability Calculator v. 1.1</h3>
       <BuckshotRoulette onGameEnd={handleGameEnd} showModal={showModal} />
       {isModalVisible && (
         <Modal message={modalMessage} onClose={handleCloseModal} />
