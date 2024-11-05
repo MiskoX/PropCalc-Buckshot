@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import BuckshotRoulette from "./components/BuckshotRoulette/BuckshotRoulette";
-import Modal from "./components/Modal/Modal"; // Importuj nowy komponent
+import Modal from "./components/Modal/Modal";
 import "./App.css"; // Załaduj style
 
 const App = () => {
   const [isGameOver, setIsGameOver] = useState(false);
-  const [modalMessage, setModalMessage] = useState(""); // Stan dla wiadomości modala
-  const [isModalVisible, setIsModalVisible] = useState(false); // Stan widoczności modala
+  const [modalMessage, setModalMessage] = useState("");
+  const [isModalVisible, setIsModalVisible] = useState(false);
 
   const handleGameEnd = () => {
     setIsGameOver(true);
