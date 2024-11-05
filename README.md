@@ -1,4 +1,4 @@
-<pre color: #00ff00; align="center" style="color: #00ff00; text-align: center; font-size: 14px;">
+<pre href="https://miskox.github.io/PropCalc-Buckshot/" color: #00ff00; align="center" style="color: #00ff00; text-align: center; font-size: 14px;">
 ╔══╗ ╔╗ ╔╗╔═══╗╔╗╔═╗╔═══╗╔╗ ╔╗╔═══╗╔════╗    ╔═══╗╔═══╗╔╗ ╔╗╔╗   ╔═══╗╔════╗╔════╗╔═══╗
 ║╔╗║ ║║ ║║║╔═╗║║║║╔╝║╔═╗║║║ ║║║╔═╗║║╔╗╔╗║    ║╔═╗║║╔═╗║║║ ║║║║   ║╔══╝║╔╗╔╗║║╔╗╔╗║║╔══╝
 ║╚╝╚╗║║ ║║║║ ╚╝║╚╝╝ ║╚══╗║╚═╝║║║ ║║╚╝║║╚╝    ║╚═╝║║║ ║║║║ ║║║║   ║╚══╗╚╝║║╚╝╚╝║║╚╝║╚══╗
@@ -6,7 +6,7 @@
 ║╚═╝║║╚═╝║║╚═╝║║║║╚╗║╚═╝║║║ ║║║╚═╝║ ╔╝╚╗     ║║║╚╗║╚═╝║║╚═╝║║╚═╝║║╚══╗ ╔╝╚╗  ╔╝╚╗ ║╚══╗
 ╚═══╝╚═══╝╚═══╝╚╝╚═╝╚═══╝╚╝ ╚╝╚═══╝ ╚══╝     ╚╝╚═╝╚═══╝╚═══╝╚═══╝╚═══╝ ╚══╝  ╚══╝ ╚═══╝
 </pre>
-<pre  align="center" style="color: #00ff00; text-align: center; font-size: 14px;">
+<pre href="https://miskox.github.io/PropCalc-Buckshot/" align="center" style="color: #00ff00; text-align: center; font-size: 14px;">
 █▀▄ █▀▄ ▄▀▄ █▀▄ ▄▀▄ ██▄ █ █   █ ▀█▀ ▀▄▀   ▄▀▀ ▄▀▄ █   ▄▀▀ █ █ █   ▄▀▄ ▀█▀ ▄▀▄ █▀▄
 █▀  █▀▄ ▀▄▀ █▀  █▀█ █▄█ █ █▄▄ █  █   █    ▀▄▄ █▀█ █▄▄ ▀▄▄ ▀▄█ █▄▄ █▀█  █  ▀▄▀ █▀▄
 </pre>
