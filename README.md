@@ -1,5 +1,3 @@
-<h1 align="center" style="color: #00ff00;">PropCalc-Buckshot</h1>
-
 <pre align="center" style="color: #00ff00; text-align: center; font-size: 14px;">
 ╔══╗ ╔╗ ╔╗╔═══╗╔╗╔═╗╔═══╗╔╗ ╔╗╔═══╗╔════╗    ╔═══╗╔═══╗╔╗ ╔╗╔╗   ╔═══╗╔════╗╔════╗╔═══╗
 ║╔╗║ ║║ ║║║╔═╗║║║║╔╝║╔═╗║║║ ║║║╔═╗║║╔╗╔╗║    ║╔═╗║║╔═╗║║║ ║║║║   ║╔══╝║╔╗╔╗║║╔╗╔╗║║╔══╝
