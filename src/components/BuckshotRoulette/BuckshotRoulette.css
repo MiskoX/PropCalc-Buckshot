@@ -1,0 +1,217 @@
+body {
+  background-color: black;
+  color: #00ff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #00ff00;
+  padding: 20px;
+  width: 600px;
+  aspect-ratio: 4/3;
+  flex-direction: column; /* Umożliwia ustawienie elementów w kolumnie */
+
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.3); /* Efekt neonowy */
+}
+
+h1 {
+  color: #00ff00;
+  font-size: 24px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+h3 {
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.setup,
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Ustawia elementy od góry */
+  align-items: center;
+  width: 100%;
+  height: 100%; /* Umożliwia wypełnienie kontenera */
+  flex-grow: 1; /* Pozwala na wypełnienie dostępnej przestrzeni */
+}
+
+.setup label,
+.game .guess-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+.input-field {
+  border: 2px solid #00ff00;
+  background-color: black;
+  color: #00ff00;
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  width: 60px; /* Szerokość inputa */
+  margin: 0 5px; /* Odstęp między inputem a przyciskami */
+
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.3); /* Efekt neonowy */
+}
+
+.start-button,
+.action-button {
+  background-color: black;
+  color: #00ff00;
+  border: 2px solid #00ff00;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: auto; /* Umożliwia umiejscowienie przycisku na dole */
+  transition: background-color 0.3s;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.3); /* Efekt neonowy */
+}
+
+.start-button:hover,
+.action-button:hover {
+  background-color: #00ff00;
+  color: black;
+  transition: background-color 0.3s;
+}
+
+.bullet-display {
+  width: 100%;
+  display: flex;
+  font-size: 20px;
+  color: #00ff00; /* Zielony kolor dla liczby pocisków */
+  gap: 20px;
+}
+
+.full-bullets,
+.blank-bullets {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  position: relative; /* Pozwala na lepsze pozycjonowanie */
+  border: 2px solid #00ff00;
+  padding: 10px;
+
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.3); /* Efekt neonowy */
+}
+
+.bullet-bar {
+  margin: 0 2px;
+  font-size: 24px; /* Powiększa reprezentację pocisków */
+  color: #00ff00; /* Zostawia zielone pociski */
+}
+
+.guess-section label {
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+.result,
+.probability {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #00ff00;
+}
+
+/* Stylizacja dla pozostałych pocisków */
+.remaining-bullets {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* Styl dla przycisku powrotu */
+.back-button {
+  background-color: black;
+  color: #00ff00;
+  border: 2px solid #00ff00;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 20px; /* Umożliwia umiejscowienie przycisku w lewym górnym rogu */
+  align-self: flex-start; /* Przycisk przylega do lewego boku kontenera */
+  transition: background-color 0.3s;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.3); /* Efekt neonowy */
+}
+
+.back-button:hover {
+  transition: background-color 0.3s;
+  background-color: #00ff00;
+  color: black;
+}
+
+.guess-section label {
+  display: flex;
+  align-items: center; /* Centruje tekst z ikoną */
+  cursor: pointer; /* Zmienia kursor na wskaźnik */
+  font-size: 18px;
+  margin: 10px 0; /* Odstęp między etykietami */
+}
+
+.guess-section input[type="radio"] {
+  display: none; /* Ukrywa standardowy radio button */
+}
+
+.custom-radio {
+  width: 30px; /* Szerokość kwadratu */
+  height: 30px; /* Wysokość kwadratu */
+  display: inline-block; /* Wyświetla jako blok w linii */
+  margin-right: 10px; /* Odstęp od tekstu */
+  position: relative; /* Pozwala na pozycjonowanie */
+  font-size: 24px; /* Ustala rozmiar tekstu */
+  color: transparent; /* Ukrywa tekst */
+  border: 2px solid #00ff00; /* Kolor ramki */
+  line-height: 30px; /* Wyrównuje X w pionie */
+  text-align: center; /* Wyrównuje X w poziomie */
+
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.3); /* Efekt neonowy */
+}
+
+.custom-radio:after {
+  content: "X"; /* Dodaje "X" jako zawartość */
+  color: #00ff00; /* Kolor "X" */
+  opacity: 0; /* Początkowo ukryty */
+  transition: opacity 0.3s ease; /* Płynna zmiana przezroczystości */
+}
+
+/* Zmiana stanu radio buttona */
+input[type="radio"]:checked + .custom-radio:after {
+  opacity: 1; /* Pokazuje "X" po zaznaczeniu */
+}
+
+.number-input {
+  display: flex;
+}
+
+.number-button {
+  background-color: black;
+  color: #00ff00;
+  border: 2px solid #00ff00;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 40px; /* Szerokość przycisków */
+  text-align: center; /* Centrowanie tekstu w przyciskach */
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.3); /* Efekt neonowy */
+}
+
+.number-button:hover {
+  background-color: #00ff00;
+  color: black;
+  transition: background-color 0.3s;
+}
