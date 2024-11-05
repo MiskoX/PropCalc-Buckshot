@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/PropCalc-Buckshot/static/css/main.4656d0ff.css",
+    "main.css": "/PropCalc-Buckshot/static/css/main.fd9535f8.css",
     "main.js": "/PropCalc-Buckshot/static/js/main.35302111.js",
     "index.html": "/PropCalc-Buckshot/index.html",
-    "main.4656d0ff.css.map": "/PropCalc-Buckshot/static/css/main.4656d0ff.css.map",
+    "main.fd9535f8.css.map": "/PropCalc-Buckshot/static/css/main.fd9535f8.css.map",
     "main.35302111.js.map": "/PropCalc-Buckshot/static/js/main.35302111.js.map"
   },
   "entrypoints": [
-    "static/css/main.4656d0ff.css",
+    "static/css/main.fd9535f8.css",
     "static/js/main.35302111.js"
   ]
 }
