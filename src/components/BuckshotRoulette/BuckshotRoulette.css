@@ -234,4 +234,22 @@ input[type="radio"]:checked + .custom-radio:after {
     aspect-ratio: auto;
     padding: 10px;
   }
+
+  .back-button {
+    margin-bottom: 10px;
+  }
+
+  .bullet-display {
+    gap: 10px;
+  }
+
+  .probability {
+    font-size: 15px;
+  }
+
+  .game .guess-section,
+  .full-bullets,
+  .blank-bullets {
+    font-size: 18px;
+  }
 }
