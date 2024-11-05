@@ -1,4 +1,3 @@
-<pre style="color: #00ff00; background-color: black; padding: 10px; border: 1px solid #00ff00;">
 <h1 align="center" style="color: #00ff00;">PropCalc-Buckshot</h1>
 
 <pre style="color: #00ff00; text-align: center; font-size: 14px;">
@@ -28,6 +27,16 @@
     <li>Opcja resetowania gry i ponownego ustawienia wartości.</li>
     <li>Wyświetlanie komunikatów o błędach w przypadku niepoprawnych danych wejściowych.</li>
 </ul>
+
+<pre style="color: #00ff00; background-color: black; padding: 10px; border: 1px solid #00ff00;">
+body {
+    background-color: black;
+    color: #00ff00;
+    font-family: monospace;
+    text-shadow: 0px 0px 5px rgba(0, 255, 0, 0.75);
+}
+</pre>
+
 <h2 style="color: #00ff00;">Strona Projektu</h2>
 <p style="color: #00ff00;">
     Pełna wersja projektu jest dostępna pod adresem: 
@@ -38,4 +47,3 @@
 <p style="color: #00ff00;">
     Ten projekt jest licencjonowany na warunkach licencji MIT.
 </p>
-</pre>
