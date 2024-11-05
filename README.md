@@ -1,4 +1,4 @@
-<pre href="https://miskox.github.io/PropCalc-Buckshot/" color: #00ff00; align="center" style="color: #00ff00; text-align: center; font-size: 14px;">
+<pre color: #00ff00; align="center" style="color: #00ff00; text-align: center; font-size: 14px;">
 ╔══╗ ╔╗ ╔╗╔═══╗╔╗╔═╗╔═══╗╔╗ ╔╗╔═══╗╔════╗    ╔═══╗╔═══╗╔╗ ╔╗╔╗   ╔═══╗╔════╗╔════╗╔═══╗
 ║╔╗║ ║║ ║║║╔═╗║║║║╔╝║╔═╗║║║ ║║║╔═╗║║╔╗╔╗║    ║╔═╗║║╔═╗║║║ ║║║║   ║╔══╝║╔╗╔╗║║╔╗╔╗║║╔══╝
 ║╚╝╚╗║║ ║║║║ ╚╝║╚╝╝ ║╚══╗║╚═╝║║║ ║║╚╝║║╚╝    ║╚═╝║║║ ║║║║ ║║║║   ║╚══╗╚╝║║╚╝╚╝║║╚╝║╚══╗
@@ -6,7 +6,7 @@
 ║╚═╝║║╚═╝║║╚═╝║║║║╚╗║╚═╝║║║ ║║║╚═╝║ ╔╝╚╗     ║║║╚╗║╚═╝║║╚═╝║║╚═╝║║╚══╗ ╔╝╚╗  ╔╝╚╗ ║╚══╗
 ╚═══╝╚═══╝╚═══╝╚╝╚═╝╚═══╝╚╝ ╚╝╚═══╝ ╚══╝     ╚╝╚═╝╚═══╝╚═══╝╚═══╝╚═══╝ ╚══╝  ╚══╝ ╚═══╝
 </pre>
-<pre href="https://miskox.github.io/PropCalc-Buckshot/" align="center" style="color: #00ff00; text-align: center; font-size: 14px;">
+<pre align="center" style="color: #00ff00; text-align: center; font-size: 14px;">
 █▀▄ █▀▄ ▄▀▄ █▀▄ ▄▀▄ ██▄ █ █   █ ▀█▀ ▀▄▀   ▄▀▀ ▄▀▄ █   ▄▀▀ █ █ █   ▄▀▄ ▀█▀ ▄▀▄ █▀▄
 █▀  █▀▄ ▀▄▀ █▀  █▀█ █▄█ █ █▄▄ █  █   █    ▀▄▄ █▀█ █▄▄ ▀▄▄ ▀▄█ █▄▄ █▀█  █  ▀▄▀ █▀▄
 </pre>
@@ -18,7 +18,7 @@
     a następnie śledzić prawdopodobieństwo wylosowania pełnej kuli podczas gry.
 </p>
 
-<h2 style="color: #00ff00;">Funkcjonalności</h2>
+<h2 style="color: #00ff00;">░░    Funkcjonalności    ░░</h2>
 <ul style="color: #00ff00;">
     <li>Ustawianie liczby pełnych i ślepych kul.</li>
     <li>Automatyczne obliczanie prawdopodobieństwa wylosowania pełnej kuli.</li>
@@ -26,7 +26,7 @@
     <li>Wyświetlanie komunikatów o błędach w przypadku niepoprawnych danych wejściowych.</li>
 </ul>
 
-<h2 style="color: #00ff00;">Strona Projektu</h2>
+<h2 style="color: #00ff00;">░░    Strona Projektu    ░░</h2>
 <p style="color: #00ff00;">
     Pełna wersja projektu jest dostępna pod adresem: 
     <a href="https://miskox.github.io/PropCalc-Buckshot/" style="color: #00ff00; text-decoration: none;">PropCalc-Buckshot</a>
